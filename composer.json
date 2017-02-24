@@ -1,0 +1,21 @@
+{
+   "name": "aariess/phone",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "aaa",
+    "authors": [
+        {
+            "name": "aariess",
+            "email": "ngthelinh93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "aariess\\phone\\": "src/"
+        }
+    }
+}
